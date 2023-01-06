@@ -1,0 +1,10 @@
+<script setup>
+import Header from "@/components/chatflow/Header.vue";
+</script>
+
+<template>
+  <Header />
+  <main>
+    <h1>this is chatflow pages</h1>
+  </main>
+</template>
