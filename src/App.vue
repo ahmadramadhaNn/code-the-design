@@ -1,5 +1,8 @@
+<script setup>
+import Header from "./components/Header.vue";
+</script>
+
 <template>
-  <div>
-    <h1 class="text-red-500">hello from tailwindcss</h1>
-  </div>
+  <Header />
+  <router-view></router-view>
 </template>
