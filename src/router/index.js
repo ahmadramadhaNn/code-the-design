@@ -17,6 +17,11 @@ const routes = [
     name: "Jobless Hero",
     component: () => import("@/pages/Jobless.vue"),
   },
+  {
+    path: "/comment",
+    name: "Comment Section",
+    component: () => import("@/pages/Comment.vue"),
+  },
 ];
 
 const router = createRouter({
