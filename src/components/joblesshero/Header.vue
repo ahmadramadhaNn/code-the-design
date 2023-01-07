@@ -31,7 +31,7 @@ const headerList = [
     <div class="grid place-content-end">
       <button
         type="button"
-        class="border border-gray-300 rounded-sm font-semibold text-base px-3 py-1"
+        class="border border-gray-300 rounded-sm font-semibold text-base px-4 py-1"
       >
         Sign Up
       </button>
