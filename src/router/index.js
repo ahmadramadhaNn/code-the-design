@@ -12,6 +12,11 @@ const routes = [
     name: "Chatflow landing",
     component: () => import("@/pages/ChatFlow.vue"),
   },
+  {
+    path: "/jobless",
+    name: "Jobless Hero",
+    component: () => import("@/pages/Jobless.vue"),
+  },
 ];
 
 const router = createRouter({

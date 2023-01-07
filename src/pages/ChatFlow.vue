@@ -4,7 +4,7 @@ import Header from "@/components/chatflow/Header.vue";
 
 <template>
   <Header />
-  <main>
+  <div>
     <h1>this is chatflow pages</h1>
-  </main>
+  </div>
 </template>
