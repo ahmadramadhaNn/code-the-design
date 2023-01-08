@@ -22,6 +22,11 @@ const routes = [
     name: "Comment Section",
     component: () => import("@/pages/Comment.vue"),
   },
+  {
+    path: "/enlighten",
+    name: "Enlighten",
+    component: () => import("@/pages/Enlighten.vue"),
+  },
 ];
 
 const router = createRouter({
