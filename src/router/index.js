@@ -27,6 +27,11 @@ const routes = [
     name: "Enlighten",
     component: () => import("@/pages/Enlighten.vue"),
   },
+  {
+    path: "/:pathMatch(.*)",
+    name: "NotFound",
+    component: () => import("@/pages/NotFound.vue"),
+  },
 ];
 
 const router = createRouter({
