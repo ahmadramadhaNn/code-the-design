@@ -11,7 +11,7 @@ import featureData from "@/data/featureData";
     <div class="max-w-[1150px] mx-auto pt-10">
       <Header />
       <Hero />
-      <div class="flex items-start gap-10 mt-24">
+      <div class="grid grid-cols-3 place-items-start gap-10 mt-24">
         <PricedCard :feature-list="featureData" />
       </div>
     </div>

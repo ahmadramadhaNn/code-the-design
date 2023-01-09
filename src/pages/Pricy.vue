@@ -13,7 +13,7 @@ import pricingData from "@/data/pricingData";
       <Hero />
       <div
         id="content"
-        class="mx-auto w-[1050px] grid grid-cols-3 gap-10 mt-14"
+        class="mx-auto w-[1050px] grid grid-cols-3 place-items-start gap-10 mt-14"
       >
         <PricingCard :pricing-data="pricingData" />
       </div>
