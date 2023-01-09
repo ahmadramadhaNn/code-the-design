@@ -28,6 +28,11 @@ const routes = [
     component: () => import("@/pages/Enlighten.vue"),
   },
   {
+    path: "/pricy",
+    name: "Pricy",
+    component: () => import("@/pages/Pricy.vue"),
+  },
+  {
     path: "/:pathMatch(.*)",
     name: "NotFound",
     component: () => import("@/pages/NotFound.vue"),
