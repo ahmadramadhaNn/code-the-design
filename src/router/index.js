@@ -38,6 +38,11 @@ const routes = [
     component: () => import("@/pages/Priced.vue"),
   },
   {
+    path: "/challenge/:slug",
+    name: "Challenge",
+    component: () => import("@/pages/Challenge.vue"),
+  },
+  {
     path: "/:pathMatch(.*)",
     name: "NotFound",
     component: () => import("@/pages/NotFound.vue"),
@@ -47,6 +52,10 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(),
   routes,
+  scrollBehavior(to, from, savedPosition) {
+    // always scroll to top
+    return { top: 0 };
+  },
 });
 
 export default router;
