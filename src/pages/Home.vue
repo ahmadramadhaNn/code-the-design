@@ -1,5 +1,11 @@
+<script setup>
+import ProjectCard from "@/components/home/ProjectCard.vue";
+</script>
+
 <template>
-  <main>
-    <h1>hello from home</h1>
+  <main class="bg-[#1F4290] min-h-screen font-['Fredoka_One']">
+    <div class="mx-auto max-w-6xl grid pt-12">
+      <ProjectCard />
+    </div>
   </main>
 </template>

@@ -8,7 +8,7 @@ import pricingData from "@/data/pricingData";
 
 <template>
   <div class="font-['DM_Sans'] pb-32">
-    <div id="pricy_container" class="h-[600px]">
+    <div id="pricy_container" class="h-[760px]">
       <Header />
       <Hero />
       <div
