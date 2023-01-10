@@ -30,7 +30,7 @@ const singleProject = computed(() => {
         Level up your coding skills with hands-on design challenges.
       </p>
       <a
-        href="#"
+        href="https://github.com/ahmadRamadhan-dotcom/code-the-design"
         target="_blank"
         class="underline text-xl font-normal font-['Patrick_Hand'] text-[#ffd466]"
         >Source on Github</a
@@ -62,7 +62,8 @@ const singleProject = computed(() => {
             <Visit :url="singleProject[0].url" />
             <div class="grid place-content-center mt-4">
               <a
-                href="#"
+                href="https://creativecommons.org/licenses/by/4.0/"
+                target="_blank"
                 class="text-lg text-black font-['Patrick_Hand'] font-normal"
                 >Read The License</a
               >

@@ -58,4 +58,9 @@ const router = createRouter({
   },
 });
 
+router.beforeEach((to, from, next) => {
+  document.title = `Ahmad - ${to.name}`;
+  next();
+});
+
 export default router;
